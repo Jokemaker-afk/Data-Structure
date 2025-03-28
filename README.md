@@ -12,3 +12,4 @@ BIPARTITE(G):
       if (u.d-v.d) mod 2 == 0:
         return FALSE
     return TRUE
+
