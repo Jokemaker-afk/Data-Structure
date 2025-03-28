@@ -13,3 +13,6 @@ BIPARTITE(G):
         return FALSE
     return TRUE
 #### runtime : running time of BFS is O(|E| + |V |) = O(|E|), since |E| ≥ |V | − 1 for connected graphs, and therefore the algorithm BIPARTITE runs in time Θ(|E|).
+
+#### 3: Additionally, if the graph is bipartite, BETTER-BIPARTITE should return a valid bi-partition (i.e., two sets of vertices V1 and V2 such that V1 ∪ V2 = V , V1 and V2 are disjoint, and all edges in E have one endpoint in each of V1 and V2). If the graph is not bipartite, the algorithm should return an odd cycle C = v1v2 . . . v2k+1 as a circular linked list. Provide a pseudo-code implementation of your algorithm. Explain why your algorithm is correct and has the required running time.
+![image](https://github.com/user-attachments/assets/090405dd-d44f-404a-9ac3-8ab64b6a97b9)
